@@ -86,6 +86,7 @@ ul{
     padding: 12px 24px;
     box-shadow: 0 0 2px var(--secondary-text-color);
     transition: 0.2s ease-out;
+    text-align: center;
 }
 
 .primary-button:hover{
@@ -125,6 +126,7 @@ ul{
 .main-nav{
     margin-top: 5px;
     justify-content: space-between;
+    position: relative;
 }
 
 .company-logo img {
@@ -201,6 +203,7 @@ header{
 
 .features-header{
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .features-header h2{
@@ -308,6 +311,7 @@ header{
     flex-direction: column;
     gap: 30px;
     color: white;
+    text-align: center;
 }
 
 .cta-section-container p{
@@ -345,4 +349,5 @@ footer{
 .sub-footer-container{
     justify-content: center;
     gap: 30px;
+    flex-wrap: wrap;
 }
